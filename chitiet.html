@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chi tiết</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <style>
+
+        .cha {
+            position: relative;
+        }
+
+        .con {
+            position: absolute;
+            top: 35%;
+            left: 40%;
+            color: white;
+        }
+
+        .container h1 {
+            font-family: Arial, Helvetica, sans-serif;
+            color: rgb(0, 0, 0);
+        }
+
+        .fram1 img {
+            width: 100%;
+            height: 100%;
+        }
+
+        .hau img {
+            width: 100%;
+        }
+
+        .fram1:hover {
+            box-shadow: 0 0 10px black;
+        }
+
+        .nav-item:hover {
+            box-shadow: 0 0 10px black;
+            border-radius: 50%;
+        }
+
+        .c1:hover {
+            box-shadow: 0 0 10px black;
+        }
+
+        .c1 {
+            align-items: center;
+        }
+    </style>
+
+
+    <div class="container-fluid p-0">
+        <nav class="navbar navbar-expand-sm navbar-dark text-bg-warning">
+            <header style="height: 70px;" class="d-flex align-item-center justify-content-center ">
+                <div class="t1">
+                    <img src="images/logo.png" alt="" style="height: 80px;">
+                </div>
+            </header>
+            <div class="container-fluid">
+                <a class="navbar-brand" href="javascript:void(0)"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="mynavbar">
+                    <ul class="navbar-nav me-auto ">
+                        <li class="nav-item">
+                            <a class="nav-link text-black fs-5" href="index.html">Trang chủ</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-black fs-5" href="sanpham.html">Sản phẩm</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-black fs-5" href="gioithieu.html">Giới thiệu</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-black fs-5" href="tintuc.html">Tin tức</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-black fs-5" href="javascript:void(0)">Liên hệ</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex">
+                        <input class="form-control me-2" type="text" placeholder="Search">
+                        <button class="btn btn-primary" type="button">Search</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+    <div class="container my-3">
+        <div class="row">
+            <div class="col-md-9" style="height:400px ;">
+                <div class="col-md-12 d-flex justify-content-center">
+
+                    <div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+                            <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+                            <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+                        </div>
+
+
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="images/ip18promax.jpg" class="d-block w-100" style="height: 400px;">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="images/ip18promax1.jpg" class="d-block w-100" style="height: 400px;">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="images/ip18promax2.jpg" class="d-block w-100" style="height: 400px;">
+                            </div>
+                        </div>
+
+                        <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon"></span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+                            <span class="carousel-control-next-icon"></span>
+                        </button>
+                    </div>
+                </div>
+                <div class="row d-flex justify-content-center p-2">
+                    <div class="fram1 m-1" style="height: 100px; width:150px; border: 1px solid rgb(255, 254, 254);">
+                        <img src="images/ip18promax.jpg" alt="">
+                    </div>
+                    <div class="fram1 m-1" style="height: 100px; width:150px; border: 1px solid rgb(255, 254, 254);">
+                        <img src="images/ip18promax1.jpg" alt="">
+                    </div>
+                    <div class="fram1 m-1" style="height: 100px; width:150px; border: 1px solid rgb(255, 254, 254);">
+                        <img src="images/ip18promax2.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3 my-2" style="height:500px;">
+                <h4>IPHONE 18 PRO MAX 2TB</h4>
+                <h5>77.990.000đ</h5>
+                <div class="row my-4">
+                    <div class="c1 bg-danger mx-2" style="height: 35px; width: 35px; border-radius: 50%;"></div>
+                    <div class="c1 bg-secondary-subtle mx-2" style="height: 35px; width: 35px; border-radius: 50%;">
+                    </div>
+                    <div class="c1 bg-black mx-2" style="height: 35px; width: 35px; border-radius: 50%;"></div>
+                </div>
+                <div class="row my-4">
+                    <div class="c1  mx-2 my-2 d-flex justify-content-between align-items-center"
+                        style="height: 35px; width: 70px; border: 2px solid rgb(95, 95, 95); text-align: center;">256GB
+                    </div>
+                    <div class="c1  mx-2 my-2 d-flex justify-content-between align-items-center"
+                        style="height: 35px; width: 70px; border: 2px solid rgb(95, 95, 95); text-align: center;">512GB
+                    </div>
+                    <div class="c1  mx-2 my-2 d-flex justify-content-between align-items-center"
+                        style="height: 35px; width: 70px; border: 2px solid rgb(95, 95, 95); text-align: center;">1TB
+                    </div>
+                    <div class="c1  mx-2 my-2 d-flex justify-content-between align-items-center"
+                        style="height: 35px; width: 70px; border: 2px solid rgb(95, 95, 95); text-align: center;">2TB
+                    </div>
+                </div>
+
+                <a href="#" class="btn btn-light border border-danger fw-bold fs-5 text-danger p-2">THÊM GIỎ HÀNG</a>
+                <a href="#" class="btn btn-danger fs-5 p-2 ">MUA NGAY</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row m-2">
+            <h3>THÔNG SỐ KĨ THUẬT</h3>
+            <hr>
+            • Màn hình: OLED Super Retina XDR 6,9", ProMotion 120Hz, tối đa 3.000 nit ngoài trời.<br>
+            • Chip: A20 Pro, CPU 6 nhân, GPU 7 nhân, Neural Engine 16 nhân.<br>
+            • Camera: 3 camera sau 48MP, camera chính có khẩu độ tùy chỉnh — điểm nâng cấp đáng chú ý.<br>
+            • Pin: lên đến 45 giờ phát video; bản eSIM có pin khoảng 5.567 mAh.<br>
+            • Bộ nhớ: 256GB / 512GB / 1TB / 2TB.<br>
+            • Kích thước/nặng: 163,4 × 78 × 8,75 mm; 249g.<br>
+            • Kháng nước: IP68, tối đa 6m/30 phút.<br>
+            • AI: Apple Intelligence và Siri AI thế hệ mới.<br>
+        </div>
+            <div class="container">
+                <div class="row p-2">
+                    <h3>SẢN PHẨM TƯƠNG TỰ</h3>
+                </div>
+                <div class="row">
+                    <div class="col-md-3  fbn p-2" style="height:705px ;">
+                        <img src="images/bannerdung1.png">
+                    </div>
+                    <div class="col-md-9">
+                        <div class="row">
+                            <div class="col-md-4 my-2">
+                                <div class="card text-center">
+                                    <img class="card-img-top" src="images/ip17promax.jpg" alt="Card image">
+                                    <div class="card-body">
+                                        <h4 class="card-title"></h4>
+                                        <p class="card-text"></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 my-2">
+                                <div class="card text-center">
+                                    <img class="card-img-top" src="images/ip15.jpg" alt="Card image">
+                                    <div class="card-body">
+                                        <h4 class="card-title"></h4>
+                                        <p class="card-text"></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 my-2">
+                                <div class="card text-center">
+                                    <img class="card-img-top" src="images/ip16plus.jpg" alt="Card image">
+                                    <div class="card-body">
+                                        <h4 class="card-title"></h4>
+                                        <p class="card-text"></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 my-2">
+                                <div class="card text-center">
+                                    <img class="card-img-top" src="images/ip17e.jpg" alt="Card image">
+                                    <div class="card-body">
+                                        <h4 class="card-title"></h4>
+                                        <p class="card-text"></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 my-2">
+                                <div class="card text-center">
+                                    <img class="card-img-top" src="images/ip17.jpg" alt="Card image">
+                                    <div class="card-body">
+                                        <h4 class="card-title"></h4>
+                                        <p class="card-text"></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 my-2">
+                                <div class="card text-center">
+                                    <img class="card-img-top" src="images/xiaomi17T.jpg" alt="Card image">
+                                    <div class="card-body">
+                                        <h4 class="card-title"></h4>
+                                        <p class="card-text"></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </div>
+
+
+
+
+    <div class="container-fluid" style="background-color:rgb(219, 219, 219)" class="p-0">
+        <div class="container">
+            <footer>
+                <div class="row p-3">
+                    <div class="col-md-3" style="height: 250px;">
+                        <h5>THÔNG TIN CÔNG TY <br></h5>
+                        Giới thiệu công ty <br>
+                        Hệ thống siêu thị <br>
+                        Phương châm bán hàng <br>
+                        Mua hàng doanh nghiệp <br>
+                        Cần thuê mặt bằng <br>
+                        Tuyển dụng <br>
+                    </div>
+                    <div class="col-md-3" style="height: 250px;">
+                        <h5>THÔNG TIN KHÁC<br></h5>
+                        Tích điểm Quà tặng VIP<br>
+                        Lịch sử mua hàng<br>
+                        Bán hàng doanh nghiệp<br>
+                        Đăng ký bán hàng CTV chiết khấu cao<br>
+                        Tìm hiểu về mua trả chậm<br>
+                        Chính sách bảo hành
+                    </div>
+                    <div class="col-md-3" style="height: 200px;">
+                        <h5>NCH.COM <br></h5>
+                        © 2026. Công ty TNHH CÔNG HẬU <br>
+                        GPDKKD: 0302309845 do sở KH & ĐT TP.HCM cấp ngày 1/09/2026 <br>
+                        Địa chỉ: 215 Nguyễn Văn Luông, Phường Bình Phú, Quận 6 Thành phố Hồ Chí Minh <br>
+                        Điện thoại: 028.39505060 - Email: info@nch.com.vn <br>
+                        Chịu trách nhiệm nội dung: Nguyễn Công Hậu <br>
+                    </div>
+                    <div class="col-md-3" style="height: 100px; width: 100px;">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.857795903424!2d106.63551654828488!3d10.745441214968736!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752e794ceeb2e7%3A0x60feca181d4f1dd3!2zVHLGsOG7nW5nIENhbyDEkeG6s25nIEtpbmggdOG6vyBL4bu5IHRodeG6rXQgVHAuSENN!5e0!3m2!1svi!2s!4v1789953455998!5m2!1svi!2s"
+                            width="300" height="250" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="strict-origin-when-cross-origin">
+                        </iframe>
+                    </div>
+                </div>
+            </footer>
+        </div>
+    </div>
+</body>
+
+</html>

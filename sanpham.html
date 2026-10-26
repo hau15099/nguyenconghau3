@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sản phẩm</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<style>
+    .hau {
+        width: 200px;
+    }
+</style>
+<div class="container-fluid p-0">
+    <nav class="navbar navbar-expand-sm navbar-dark text-bg-warning">
+        <header style="height: 70px;" class="d-flex align-item-center justify-content-center ">
+            <div class="t1">
+                <img src="images/logo.png" alt="" style="height: 80px;">
+            </div>
+        </header>
+        <div class="container-fluid">
+            <a class="navbar-brand" href="javascript:void(0)"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="mynavbar">
+                <ul class="navbar-nav me-auto ">
+                    <li class="nav-item">
+                        <a class="nav-link text-black fs-5" href="index.html">Trang chủ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-black fs-5" href="gioithieu.html">Sản phẩm</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-black fs-5" href="gioithieu.html">Giới thiệu</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-black fs-5" href="tintuc.html">Tin tức</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-black fs-5" href="javascript:void(0)">Liên hệ</a>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="text" placeholder="Search">
+                    <button class="btn btn-primary" type="button">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+</div>
+
+<div class="container">
+    <div class="row my-2">
+        <div class="col-md-4"></div>
+        <div class="col-md-4"></div>
+        <div class="col-md-4 p-2" style="text-align: right ;">
+            <label for="">Sắp xếp theo</label>
+            <select name="" id="">
+                <option value="">Tất cả</option>
+                <option value="">Iphone</option>
+                <option value="">Samsung</option>
+                <option value="">Xiaomi</option>
+                <option value="">Oppo</option>
+            </select>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-4 p-2" style=" height: 800px;">
+            <h3>Tìm kiếm theo đơn giá</h3>
+
+            <form action="/action_page.php">
+                <label for="vol">Giá tiền (từ 0đ đến 200.000.000đ):</label>
+                <input type="range" id="vol" name="vol" min="0" max="500000000" class="w-100 my-2">
+            </form>
+
+            <div class="row">
+                <h4>Iphone</h4>
+            </div>
+            <div class="row" id="danhmuc">
+                <ul>
+                    <li class="ps-4 p-1"><a href="">Iphone 18 Pro Max 2TB</a></li>
+                    <li class="ps-4 p-1"><a href="">Iphone 17 Pro Max 2TB</a></li>
+                    <li class="ps-4 p-1"><a href="">Iphone 15 512GB </a></li>
+                    <li class="ps-4 p-1"><a href="">Iphone Duo</a></li>
+                </ul>
+            </div>
+            <div class="row">
+                <h4>Samsung</h4>
+            </div>
+            <div class="row" id="danhmuc">
+                <ul>
+                    <li class="ps-4 p-1"><a href="">Samsung S26 Ultra</a></li>
+                    <li class="ps-4 p-1"><a href="">Samsung Z Fold 8 Ultra</a></li>
+                    <li class="ps-4 p-1"><a href="">Samsung Z Flip 7</a></li>
+                </ul>
+            </div>
+            <div class="row">
+                <h4>Xiaomi</h4>
+            </div>
+            <div class="row" id="danhmuc">
+                <ul>
+                    <li class="ps-4 p-1"><a href="">Xiaomi POCO X8</a></li>
+                    <li class="ps-4 p-1"><a href="">Xiaomi POCO F9</a></li>
+                    <li class="ps-4 p-1"><a href="">Xiaomi 17T Pro Max</a></li>
+                </ul>
+            </div>
+            <div class="row">
+                <h4>Oppo</h4>
+            </div>
+            <div class="row" id="danhmuc">
+                <ul>
+                    <li class="ps-4 p-1"><a href="">Oppo Find X9s</a></li>
+                    <li class="ps-4 p-1"><a href="">Oppo Reno 15 Pro</a></li>
+                    <li class="ps-4 p-1"><a href="">Oppo Reno 16</a></li>
+                </ul>
+            </div>
+
+        </div>
+
+        <div class="col-md-8">
+            <div class="row">
+                <div class="col-md-3 p-2">
+                    <div class="card text-center">
+                        <img class="card-img-top my-2" src="images/ipduo.jpg" alt="Card image">
+                        <div class="card-body">
+                            <h4 class="card-title">Iphone Duo 2TB</h4>
+                            <p class="card-text">103.990.000đ</p>
+                            <a href="#" class="btn btn-primary fs-5">Mua</a>
+                            <a href="chitiet.html" class="btn btn-secondary fs-5">Chi tiết</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 p-2">
+                    <div class="card text-center">
+                        <img class="card-img-top my-2" src="images/ss_s26.jpg">
+                        <div class="card-body">
+                            <h4 class="card-title">Samsung S26 Ultra</h4>
+                            <p class="card-text">41.990.000đ</p>
+                            <a href="#" class="btn btn-primary fs-5">Mua</a>
+                            <a href="chitiet.html" class="btn btn-secondary fs-5">Chi tiết</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 p-2">
+                    <div class="card text-center">
+                        <img class="card-img-top my-2" src="images/xiaomipocox8.jpg" alt="Card image">
+                        <div class="card-body">
+                            <h4 class="card-title">Xiaomi POCO X8</h4>
+                            <p class="card-text">60.000.000đ</p>
+                            <a href="#" class="btn btn-primary fs-5">Mua</a>
+                            <a href="chitiet.html" class="btn btn-secondary fs-5">Chi tiết</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 p-2">
+                    <div class="card text-center">
+                        <img class="card-img-top my-2" src="images/oppo_findx9s.jpg" alt="Card image">
+                        <div class="card-body">
+                            <h4 class="card-title">Oppo Find X9s 256GB</h4>
+                            <p class="card-text">24.990.000đ</p>
+                            <a href="#" class="btn btn-primary fs-5">Mua</a>
+                            <a href="chitiet.html" class="btn btn-secondary fs-5">Chi tiết</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 p-2">
+                    <div class="card text-center">
+                        <img class="card-img-top my-2" src="images/oppo_a5.jpg" alt="Card image">
+                        <div class="card-body">
+                            <h4 class="card-title">Oppo A5 256GB</h4>
+                            <p class="card-text">5.299.000đ</p>
+                            <a href="#" class="btn btn-primary fs-5">Mua</a>
+                            <a href="chitiet.html" class="btn btn-secondary fs-5">Chi tiết</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 p-2">
+                    <div class="card text-center">
+                        <img class="card-img-top my-2" src="images/xiaomi17ultra.jpg" alt="Card image">
+                        <div class="card-body">
+                            <h4 class="card-title">Xiaomi 17 Ultra 1TB</h4>
+                            <p class="card-text">27.990.000đ</p>
+                            <a href="#" class="btn btn-primary fs-5">Mua</a>
+                            <a href="chitiet.html" class="btn btn-secondary fs-5">Chi tiết</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 p-2">
+                    <div class="card text-center">
+                        <img class="card-img-top my-2" src="images/ip15.jpg" alt="Card image">
+                        <div class="card-body">
+                            <h4 class="card-title">Iphone 15 512GB </h4>
+                            <p class="card-text">26.990.000đ</p>
+                            <a href="#" class="btn btn-primary fs-5">Mua</a>
+                            <a href="chitiet.html" class="btn btn-secondary fs-5">Chi tiết</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 p-2">
+                    <div class="card text-center">
+                        <img class="card-img-top my-2" src="images/ss_a57.jpg">
+                        <div class="card-body">
+                            <h4 class="card-title">Samsung A57 256GB</h4>
+                            <p class="card-text">12.290.000đ</p>
+                            <a href="#" class="btn btn-primary fs-5">Mua</a>
+                            <a href="chitiet.html" class="btn btn-secondary fs-5">Chi tiết</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container-fluid" style="background-color:rgb(219, 219, 219)" class="p-0">
+    <div class="container">
+        <footer>
+            <div class="row p-3">
+                <div class="col-md-3" style="height: 250px;">
+                    <h5>THÔNG TIN CÔNG TY <br></h5>
+                    Giới thiệu công ty <br>
+                    Hệ thống siêu thị <br>
+                    Phương châm bán hàng <br>
+                    Mua hàng doanh nghiệp <br>
+                    Cần thuê mặt bằng <br>
+                    Tuyển dụng <br>
+                </div>
+                <div class="col-md-3" style="height: 250px;">
+                    <h5>THÔNG TIN KHÁC<br></h5>
+                    Tích điểm Quà tặng VIP<br>
+                    Lịch sử mua hàng<br>
+                    Bán hàng doanh nghiệp<br>
+                    Đăng ký bán hàng CTV chiết khấu cao<br>
+                    Tìm hiểu về mua trả chậm<br>
+                    Chính sách bảo hành
+                </div>
+                <div class="col-md-3" style="height: 200px;">
+                    <h5>NCH.COM <br></h5>
+                    © 2026. Công ty TNHH CÔNG HẬU <br>
+                    GPDKKD: 0302309845 do sở KH & ĐT TP.HCM cấp ngày 1/09/2026 <br>
+                    Địa chỉ: 215 Nguyễn Văn Luông, Phường Bình Phú, Quận 6 Thành phố Hồ Chí Minh <br>
+                    Điện thoại: 028.39505060 - Email: info@nch.com.vn <br>
+                    Chịu trách nhiệm nội dung: Nguyễn Công Hậu <br>
+                </div>
+                <div class="col-md-3" style="height: 100px; width: 100px;">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.857795903424!2d106.63551654828488!3d10.745441214968736!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752e794ceeb2e7%3A0x60feca181d4f1dd3!2zVHLGsOG7nW5nIENhbyDEkeG6s25nIEtpbmggdOG6vyBL4bu5IHRodeG6rXQgVHAuSENN!5e0!3m2!1svi!2s!4v1789953455998!5m2!1svi!2s"
+                        width="300" height="250" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="strict-origin-when-cross-origin">
+                    </iframe>
+                </div>
+            </div>
+        </footer>
+    </div>
+</div>
+</body>
+
+</html>
